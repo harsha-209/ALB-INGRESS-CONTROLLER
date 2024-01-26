@@ -18,3 +18,7 @@ now edit the role trust relation ship and add this line in last of policy
 now go to official document of alb ingress and edit ingress controller deployment file edit service account add this role arn in alb-ingress controller file and edit cluster name and deploy it. before install certmanage in it
 <img width="617" alt="image" src="https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/316bfdae-855b-437f-9791-10c0482814eb">
 
+
+follow kubernetes dashboard install steps below
+https://medium.com/@satyakommula/deploy-kubernetes-dashboard-with-nodeport-382f447d2ff8
+
