@@ -6,7 +6,7 @@
 4. <img width="682" alt="image" src="https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/3f5f7af5-e6f5-4439-89ac-d0d14028c595">
 
 
-![image](https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/124c59d9-6aa2-46dd-9c30-6fb5a8386139)
+
 
 now create a alb policy and follow below document
 https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.6.1/docs/install/iam_policy.json
@@ -18,6 +18,9 @@ now edit the role trust relation ship and add this line in last of policy add th
 
 <img width="703" alt="image" src="https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/8ae49842-ba89-4c46-9d1e-931715ce7822">
 
+
+use sub and sts.amazonaws.com
+![image](https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/124c59d9-6aa2-46dd-9c30-6fb5a8386139)
 now go to official document of alb ingress and edit ingress controller deployment file edit service account add this role arn in alb-ingress controller file and edit cluster name and deploy it. before install certmanage in it
 <img width="617" alt="image" src="https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/316bfdae-855b-437f-9791-10c0482814eb">
 
