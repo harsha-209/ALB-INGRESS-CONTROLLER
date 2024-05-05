@@ -11,7 +11,7 @@
 now create a alb policy and follow below document
 https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.6.1/docs/install/iam_policy.json
 
-now go to iam role and create a role using webidentiy and use above oidc url and sts.amazon.com and attach this alb-iam policy 
+now go to iam role and create a role using webidentiy and use above oidc url and sts.amazonaws.com and instead of aud use sub attach this alb-iam policy 
  <img width="686" alt="image" src="https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/92a7bb73-6f38-42d2-aebf-5724519dd57a">
  
 now edit the role trust relation ship and add this line in last of policy add there service account name and namespace of service account details
