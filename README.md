@@ -5,6 +5,9 @@
 3. follow below screenshot and click on thumbprint
 4. <img width="682" alt="image" src="https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/3f5f7af5-e6f5-4439-89ac-d0d14028c595">
 
+
+![image](https://github.com/harsha-209/ALB-INGRESS-CONTROLLER/assets/51083187/124c59d9-6aa2-46dd-9c30-6fb5a8386139)
+
 now create a alb policy and follow below document
 https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.6.1/docs/install/iam_policy.json
 
